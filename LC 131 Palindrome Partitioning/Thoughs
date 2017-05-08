@@ -1,0 +1,17 @@
+### Problem description
+
+Given a string s, partition s such that every substring of the partition is a palindrome.
+
+Return all possible palindrome partitioning of s.
+
+For example, given s = "aab",
+Return
+[
+  ["aa","b"],
+  ["a","a","b"]
+]
+
+#### thoughts
+make this question as combination sum. What you need to do is to split the word, every time you split you need to verify 
+if the substring you get is a palindrome one. for a string like aabbbcccc you can split as aa bbb cccc which is the combination of 2,5,9.
+use dfs to get all possible combinations
