@@ -1,0 +1,4 @@
+for 1 to 5,the permutation sequence is
+1 (2 to 5, which is 4!)
+2 (1 and 3 to 5, which is also 4!)
+so by k we can know what is the first number our result should be
