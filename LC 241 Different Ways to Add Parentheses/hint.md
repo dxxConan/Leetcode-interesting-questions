@@ -1,0 +1,1 @@
+use divide and conquer, just throw all the thing use recursive
