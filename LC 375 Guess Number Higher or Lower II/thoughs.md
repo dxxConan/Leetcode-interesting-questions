@@ -1,0 +1,1 @@
+another way to deal with this question is use divide and conquer
