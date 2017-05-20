@@ -1,0 +1,1 @@
+we cut the tree from the leaf node. And also update the graph. So the two node left(or less) are what we want
