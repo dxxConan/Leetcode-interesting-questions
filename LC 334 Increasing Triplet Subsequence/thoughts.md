@@ -1,0 +1,1 @@
+similar to longest increasing subsequence, but since it only needs to subsequence length equal to 3, so we can have much simple solution

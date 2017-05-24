@@ -1,0 +1,19 @@
+public boolean increasingTriplet(int[] nums) {
+        if(nums == null || nums.length < 3){
+            return false;
+        }
+        int min1 = Integer.MAX_VALUE;
+        int min2 = Integer.MAX_VALUE;
+        
+        for(int cur: nums){
+            if(min1 >= cur){
+                min1 = cur;
+            }else if(min2 >= cur){
+                min2 = cur;
+            }else{
+                //find the third value larger than min1 min2
+                return true;
+            }
+        }
+        return false;
+    }
